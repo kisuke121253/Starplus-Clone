@@ -1,0 +1,341 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    background-color: #050912;
+}
+
+nav img {
+    margin-left: 30px;
+}
+
+nav button {
+    padding: 15px;
+    display: flex;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    border: 0;
+}
+
+
+.btnS-2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 14.7px;
+    margin-left: 88.4%;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+    border: 0;
+    background-color: rgb(68, 68, 68);
+}
+
+.btnS-2:hover {
+    background-color: rgb(57, 57, 57);
+}
+
+.btn-1 {
+    font-family: sans-serif;
+    margin-left: 63%;
+    background-image: linear-gradient(to right, rgb(203, 49, 154) 5%, rgb(216, 98, 77) 60%, rgb(246, 109, 36) 90%);
+}
+
+.btn-1:hover {
+    background-image: linear-gradient(to right, rgb(246, 109, 36) 5%, rgb(216, 98, 77) 60%, rgb(203, 49, 154) 90%);
+}
+
+.btn-2 {
+    font-family: sans-serif;
+    margin-left: 1%;
+    background-color: rgb(68, 68, 68);
+}
+
+.btn-2:hover {
+    margin-left: 1%;
+    background-color: rgb(57, 57, 57);
+
+}
+
+header {
+    width: 100%;
+    height: 147.8vh;
+    background-image: url(../img/original.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+header section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.assina {
+    margin-top: 23pc;
+}
+
+.logo {
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+
+section h1 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 26px;
+    margin-bottom: 5%;
+    margin-left: 8%;
+
+}
+
+
+.btn-3 {
+    font-family: sans-serif;
+    margin: 10px;
+    background-color: #6421ff;
+    color: rgb(222, 222, 222);
+    font-size: 18px;
+    padding: 18px;
+    padding-left: 4pc;
+    padding-right: 4pc;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-3:hover {
+    background-color: #7828ff;
+}
+
+.price {
+    width: 100%;
+    height: 100vh;
+    background-color: #050912;
+    text-align: center;
+}
+
+.price h1 {
+    font-family: sans-serif;
+    font-size: 2.7pc;
+    margin-left: -0.2pc;
+}
+
+.price1 {
+    display: inline-flex;
+    width: 90%;
+    height: 60vh;
+    /* border: 1px solid red;*/
+}
+
+
+.price2 {
+    /*border: 1px solid red;*/
+    width: 40%;
+    height: 60vh;
+}
+
+.price2 img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#price4 {
+    background-image: url(../img/original3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#price4 img {
+    padding: 3px;
+}
+
+.price2 h2 {
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 4%;
+}
+
+.price2 p {
+    font-family: sans-serif;
+    color: rgb(181, 181, 181);
+    margin-left: 3pc;
+    margin-right: 3pc;
+    margin-bottom: 3pc;
+    font-size: 1.2pc;
+}
+
+.obs {
+    font-family: sans-serif;
+    /*border: 1px solid rgb(0, 255, 8);*/
+    margin-top: 2%;
+    width: 100%;
+    height: 10vh;
+    color: grey;
+    font-size: 12px;
+}
+
+.sec1 {
+    background-color: #050912;
+    padding-top: 6%;
+    width: 100%;
+    height: 140vh;
+}
+
+.sec1 h1 {
+    margin-left: 4pc;
+}
+
+.sec1 p {
+    font-size: 1.09pc;
+    margin-top: -5.4%;
+    margin-left: 2pc;
+    margin-right: 2pc;
+    padding: 30px;
+    font-family: sans-serif;
+    color: grey;
+}
+
+.img1 {
+    width: 90%;
+    height: 80vh;
+    margin-left: 5%;
+}
+
+.ESPN {
+    justify-content: center;
+    background-color: #050912;
+    width: 100%;
+    height: 84vh;
+    display: inline-flex;
+}
+
+.ESPN1 {
+    display: block;
+    align-items: center;
+    width: 45%;
+    height: 70vh;
+    /*border: 1px solid red;*/
+}
+
+.ESPN1 h1 {
+    margin-top: 30%;
+}
+
+.ESPN1 p {
+    color: grey;
+    font-family: sans-serif;
+    margin: 8%;
+    margin-top: -2%;
+}
+
+.ESPN2 {
+    width: 45%;
+    height: 70vh;
+    /* border: 1px solid red;*/
+    background-image: url(../img/things.png);
+    background-size: cover;
+}
+
+.simpsons {
+    background-image: url(../img/simpsons.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 143vh;
+}
+
+.simpsons div {
+    padding: 55px;
+    width: 50%;
+    height: 60vh;
+
+}
+
+.simpsons h1 {
+    margin: 0;
+    font-size: 2.4pc;
+    font-family: sans-serif;
+}
+
+.simpsons p {
+    margin-top: 6%;
+    font-size: 1.3pc;
+    color: rgb(224, 223, 223);
+    font-family: sans-serif;
+}
+
+.simpsons a {
+    font-size: 1.3pc;
+    color: rgb(182, 182, 182);
+
+}
+
+.disp {
+    width: 100%;
+    height: 100vh;
+    background-color: #050912;
+    text-align: center;
+    padding: 5%;
+}
+
+.disp1 {
+    width: 100%;
+    display: inline-flex;
+}
+
+.dispcard {
+    margin-top: -3%;
+    width: 45%;
+    height: 80vh;
+    font-size: 1px;
+}
+
+.dispcard li {
+    display: block;
+    color: rgb(182, 182, 182);
+    font-size: 1.1pc;
+    font-family: sans-serif;
+
+}
+
+
+.dispcard img {
+    width: 90%;
+}
+
+.disp h1 {
+    padding-top: 2%;
+    margin-right: 10%;
+    font-size: 2.2pc;
+    color: white;
+}
+
+.pf {
+    background-color: #050912;
+    width: 100%;
+    height: 100vh;
+}
+
+footer {
+    text-align: center;
+    border: 1px solid red;
+    background-color: #050912;
+    width: 100%;
+    height: 39vh;
+}
