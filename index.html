@@ -5,16 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starplus</title>
 </head>
 
 <body id="baum">
+    <!-- NAVBAR -->
     <nav id="nav1"><img style="width:6.4pc; margin-left: 4%; padding: 1%;" src="./img/original (2).svg" />
-        <button class="btn-1">ASSINE AGORA</button>
-        <button class="btn-2">ENTRAR</button>
+        <div class="respon">
+            <button class="btn-1">ASSINE AGORA</button>
+            <button class="btn-2">ENTRAR</button>
+        </div>
     </nav>
-    <div><button id="btnS_2" class="btnS-2">ENTRAR</button></div>
+    <div class="bd"><button id="btnS_2" class="btnS-2">ENTRAR</button></div>
+    <!-- Header -->
     <header id="hd_1">
 
         <section>
@@ -30,6 +35,7 @@
             </div>
         </section>
     </header>
+    <!-- Section Price -->
     <section id="price" class="price">
         <h1>Escolha seu plano</h1>
         <div class="price1">
@@ -54,6 +60,7 @@
             <p>*O preço pode variar caso a assinatura seja feita através de outras plataformas.</p>
         </div>
     </section>
+    <!-- Section 2-->
     <section class="sec1">
         <div>
             <h1 style="font-size: 2.3pc;">O que você vai ver primeiro?</h1>
@@ -64,6 +71,7 @@
             <img class="img1" src="./img/freeguy.jpg">
         </div>
     </section>
+    <!-- Section ESPN-->
     <section class="ESPN">
         <div class="ESPN1">
             <h1 style="font-size: 2.3pc; font-family: sans-serif;">Mais ESPN no Star+.</h1>
@@ -72,6 +80,7 @@
         </div>
         <div class="ESPN2"></div>
     </section>
+    <!-- Section Simpsons-->
     <section class="simpsons">
         <div>
             <h1>Os Simpsons como você nunca viu. Sem
@@ -85,6 +94,7 @@
             color: rgb(182, 182, 182);">The Simpsons ™ & © 2023 20th Century Studios</p>
         </div>
     </section>
+    <!-- Section Disp-->
     <section class="disp">
         <h1>Assista em seus dispositivos favoritos</h1>
         <div class="disp1">
@@ -128,9 +138,11 @@
             </div>
         </div>
     </section>
+    <!-- Section PF-->
     <section class="pf">
         <h1>Perguntas Frequentes</h1>
-        <button class="pf1" id="pf1">Já tem o Disney+ ou o Star+ e quer o Combo+?</button>
+        <button class="pf1" id="pf1">Já tem o Disney+ ou o Star+ e quer o Combo+?<p id="a1" class="a1">+</p>
+        </button>
         <div class="pfd_1" id="pd1">
             <div class="pfd">
                 <p>Ao assinar o Combo+:</p>
@@ -150,15 +162,16 @@
                     Combo+ está disponível.</p>
             </div>
         </div>
-        <button class="pf1" id="pf2">Já é assinante do Disney+?</button>
+        <button class="pf1" id="pf2">Já é assinante do Disney+? <p id="b1" class="b1">+</p>
+        </button>
         <div class="pfd2" id="pd2">
 
             <p>Assine o Star+ usando o mesmo login e senha do Disney+, assim você terá acesso a ambos os
                 serviços por um preço promocional. Para ser assinante, você deve ter 18 anos.</p>
 
         </div>
-
-        <button class="pf1" id="pf3">O que está incluído no Star+?</button>
+        <button class="pf1" id="pf3">O que está incluído no Star+?<p id="c1" class="c1">+</p>
+        </button>
         <div class="pfd_3" id="pd3">
             <div class="pfx">
                 <p>O Star+ oferece:</p>
@@ -173,13 +186,15 @@
                 </il>
             </div>
         </div>
-        <button class="pf1" id="pf4">Quais formas de pagamento posso utilizar?</button>
+        <button class="pf1" id="pf4">Quais formas de pagamento posso utilizar?<p id="d1" class="d1">+</p>
+        </button>
         <div class="pfd_4" id="pd4">
             <p>Você pode utilizar: cartão de débito, cartão de crédito, PayPal, Mercado Pago, e também empresas
                 parceiras como Google Play Store, App Store da Apple; Mercado Livre e provedores locais de TV, telefonia
                 e internet.</p>
         </div>
-        <button class="pf1" id="pf5">O Star+ possui controle parental?</button>
+        <button class="pf1" id="pf5">O Star+ possui controle parental?<p id="e1" class="e1">+</p>
+        </button>
         <div class="pfd_5" id="pd5">
             <p>Sim. Com o controle parental do Star+, você poderá controlar o acesso a conteúdos de acordo com a
                 classificação indicativa selecionada, oferecendo maior segurança aos usuários da sua família.</p>
@@ -187,8 +202,40 @@
 
 
     </section>
-
-    <footer></footer>
+    <!-- Footer-->
+    <footer>
+        <div>
+            <div class="ftimg"><img style="width: 5pc;"
+                    src="//cnbl-cdn.bamgrid.com/assets/e41020c93fec10692725897c2cffbc75a1c59a6855b2cb702d85b45c596a81e7/original">
+            </div>
+            <div class="ftli">
+                <ul>
+                    <li><select id="idiomas" class="ftselect">
+                            <option value="pt-br">Português</option>
+                            <option value="en">English</option>
+                        </select></li>
+                    <li>Termos e Condições de Uso</li>
+                    <li>Política de Privacidade</li>
+                    <li>Proteção de Dados no Brasil</li>
+                    <li>Ajuda</li>
+                    <li>Dispositivos compatíveis</li>
+                    <li>Sobre o Star+</li>
+                    <li>Anúncios personalizados</li>
+                </ul>
+                <div class="ftli1">
+                    <p>® 2023 Disney e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura
+                        paga.
+                        Conteúdo sujeito a disponibilidade.</p>
+                </div>
+                <p class="ftli2">Star+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O
+                    serviço Star+ é
+                    comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações
+                    Unidas,
+                    12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+                </p>
+            </div>
+        </div>
+    </footer>
 
     <script src=" ./js/index.js">
     </script>
